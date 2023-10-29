@@ -1,0 +1,50 @@
+plugins{
+    id 'application'
+    id 'java'
+    id 'idea'
+    id 'org.javamodularity.moduleplugin' version '1.8.12'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+group 'org.nolan'
+version '0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+run {
+    standardInput = System.in
+}
+
+test {
+    useJUnitPlatform()
+
+    testLogging {
+        events "passed", "skipped", "failed", "standard_out", "standard_error"
+    }
+}
+
+// Needs to be 17, ideally, it should match your JDK
+javafx {
+    version = "21"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+application {
+    mainModule = "SIMON"
+    mainClassName = "simongame.SimonMain"
+    
+    if (project.hasProperty("mainClass")) {
+        getMainClass().set(project.getProperty("mainClass"))
+    }
+    else {
+        getMainClass().set(mainClassName)
+    }
+}

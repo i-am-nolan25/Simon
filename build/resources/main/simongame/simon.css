@@ -1,0 +1,18 @@
+/*
+ * CSS for the Simon game MVC application
+ */
+
+.root {
+    -fx-background-color: #152238;
+}
+
+/* Style for the buttons */
+.button:hover {
+    -fx-cursor: hand;
+}
+
+Label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #ffffff;
+    -fx-padding: -5px;
+}
