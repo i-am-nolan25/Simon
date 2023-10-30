@@ -1,4 +1,4 @@
-# JavaFX Simon Game
+# JavaFX Simon Says Game
 
 ![Simon Says Game](./src/main/resources/simongame/simon-says-game.png)
 
