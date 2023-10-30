@@ -77,7 +77,7 @@ public class SimonMain extends Application {
     public void start(Stage primaryStage) {
         Scene scene = new Scene(theView.getRoot());
 
-        primaryStage.setTitle("Simon Game");
+        primaryStage.setTitle("Simon Says Game");
         primaryStage.setScene(scene);
         primaryStage.sizeToScene();
         primaryStage.show();
