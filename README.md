@@ -1,5 +1,7 @@
 # JavaFX Simon Game
 
+![Simon Says Game](./src/main/resources/simongame/simon-says-game.png)
+
 ## Overview
 The JavaFX Simon Game is a graphical rendition of the classic electronic game of memory skill, Simon. Developed using JavaFX, this interactive application challenges players to remember and replicate sequences of colors and sounds.
 
