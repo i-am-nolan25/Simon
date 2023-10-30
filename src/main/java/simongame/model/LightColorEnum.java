@@ -1,20 +1,11 @@
 /* *****************************************
- * CSCI 205 - Software Engineering and Design
- * Fall 2023
- * Instructor: Prof. Joshua Stough
- *
- * Section: MWF (10:00 AM - 10:50 AM)
- * Lab Section: Thursday (10:00 AM - 11:50 AM)
- *
  * Name: Nolan Lwin
  * Date: 10/26/23
  * Time: 1:58 AM
  *
- * Project: csci205_labs
- * Package: lab10.simongame.model
+ * Project: SIMON-SAYS
+ * Package: simongame.model
  * Class: LightColorEnum
- *
- * Lab Assignment: Lab10
  *
  * Description: A enum class for the light colors
  *

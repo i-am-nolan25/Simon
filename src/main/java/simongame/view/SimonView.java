@@ -1,22 +1,13 @@
 /* *****************************************
- * CSCI 205 - Software Engineering and Design
- * Fall 2023
- * Instructor: Prof. Joshua Stough
- *
- * Section: MWF (10:00 AM - 10:50 AM)
- * Lab Section: Thursday (10:00 AM - 11:50 AM)
- *
  * Name: Nolan Lwin
  * Date: 10/26/23
  * Time: 2:33 AM
  *
- * Project: csci205_labs
- * Package: lab10.simongame.view
- * Class: TrafficLightView
+ * Project: SIMON-SAYS
+ * Package: simongame.view
+ * Class: SimonView
  *
- * Lab Assignment: Lab10
- *
- * Description: A class that represents the view of the traffic light
+ * Description: A class that represents the view of the Simon game
  *
  * ****************************************
  */
