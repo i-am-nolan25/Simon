@@ -5,11 +5,11 @@
 ## Overview
 The JavaFX Simon Game is a graphical rendition of the classic electronic game of memory skill, Simon. Developed using JavaFX, this interactive application challenges players to remember and replicate sequences of colors and sounds.
 
-## Features
+## Features 🚀
 - **Graphical User Interface**: Built with JavaFX for a smooth and responsive user experience.
 - **Increasing Difficulty**: As the game progresses, the sequences become longer and more complex.
 
-## Installation
+## Installation ⚙️
 
 ### Prerequisites
 - Java 11 or later
@@ -18,14 +18,14 @@ The JavaFX Simon Game is a graphical rendition of the classic electronic game of
 ### Steps
 1. **Clone the Repository**
    ```
-   git clone [https://github.com/i-am-nolan25/Simon-Says.git](https://github.com/i-am-nolan25/Simon-Says.git)
+   git clone https://github.com/i-am-nolan25/Simon-Says.git
    cd Simon-Says
    ```
 
 2. **Compile and Run**
     All the required SDK and modules are already installed in this repository. You can use your preferred IDE and follow this file path to run the java application.
     ```
-    
+    ./src/main/java/simongame/SimonMain.java
     ```
 
 ## Usage
